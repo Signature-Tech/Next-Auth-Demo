@@ -23,9 +23,6 @@ export default function form() {
           password : formData.get("password"),
           redirect : false,
       })
-      if (!response?.error) {
-        window.location.href = "/"
-      }
     }
     
     return (
